@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{dd50bd93-c3a3-4c5b-99a7-c17ae3a9ecd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ec6049c5-1edf-4c4e-b093-763f3b4deec0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API_Layer_lib.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerClass.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API_Layer_lib.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerClass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

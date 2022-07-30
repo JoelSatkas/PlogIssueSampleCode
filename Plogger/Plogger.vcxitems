@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{6ad3b8cd-504f-4f9e-bcd9-8f327e37920b}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\AndroidAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\ColorConsoleAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\ConsoleAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\DebugOutputAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\EventLogAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\IAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Appenders\RollingFileAppender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Converters\NativeEOLConverter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Converters\UTF8Converter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Formatters\CsvFormatter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Formatters\FuncMessageFormatter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Formatters\MessageOnlyFormatter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Formatters\TxtFormatter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Init.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Log.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Logger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Record.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Severity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\Util.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\External\plog-1.1.5\include\plog\WinApi.h" />
+  </ItemGroup>
+</Project>
