@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libRunner", "libRunner.vcxproj", "{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibExampleUsingPlog", "..\LibExampleUsingPlog\LibExampleUsingPlog.vcxproj", "{A2954A94-1CE1-4697-9C07-57139338DE2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plogger", "..\Plogger\Plogger.vcxitems", "{6AD3B8CD-504F-4F9E-BCD9-8F327E37920B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}.Debug|x64.ActiveCfg = Debug|x64
+		{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}.Debug|x64.Build.0 = Debug|x64
+		{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}.Debug|x64.Deploy.0 = Debug|x64
+		{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}.Release|x64.ActiveCfg = Release|x64
+		{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}.Release|x64.Build.0 = Release|x64
+		{C4E4B55E-CC40-41F9-BC64-E8B5865A5EE9}.Release|x64.Deploy.0 = Release|x64
+		{A2954A94-1CE1-4697-9C07-57139338DE2C}.Debug|x64.ActiveCfg = Debug|x64
+		{A2954A94-1CE1-4697-9C07-57139338DE2C}.Debug|x64.Build.0 = Debug|x64
+		{A2954A94-1CE1-4697-9C07-57139338DE2C}.Debug|x64.Deploy.0 = Debug|x64
+		{A2954A94-1CE1-4697-9C07-57139338DE2C}.Release|x64.ActiveCfg = Release|x64
+		{A2954A94-1CE1-4697-9C07-57139338DE2C}.Release|x64.Build.0 = Release|x64
+		{A2954A94-1CE1-4697-9C07-57139338DE2C}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F7EA9E2-9020-4C14-B569-6A778AA1519D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Plogger\Plogger.vcxitems*{6ad3b8cd-504f-4f9e-bcd9-8f327e37920b}*SharedItemsImports = 9
+		..\Plogger\Plogger.vcxitems*{a2954a94-1ce1-4697-9c07-57139338de2c}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
